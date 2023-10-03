@@ -14,6 +14,7 @@
         <link href="<?php echo ROOT_URL; ?>/Engine/Style.css" rel="stylesheet" />
 
         <script src="<?php echo ROOT_URL; ?>/Engine/API/Requests.js"></script>
+        <script src="<?php echo ROOT_URL; ?>/Engine/API/Cards/Requests.js"></script>
 
         <title>Vicards</title>
     </head>
@@ -35,7 +36,7 @@
             </tr>
         </table>
         <script>
-
+            API.Cards.getCollection();
         </script>
     </body>
 </html>

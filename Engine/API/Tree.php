@@ -19,6 +19,13 @@ class Tree
     {
         $manager = new Manager();
 
+        $manager->add(new Method('Vicards.Cards.Collection', '\Liloi\Vicards\API\Cards\Collection\Method::execute'));
+        $manager->add(new Method('Vicards.Cards.Show', '\Liloi\Vicards\API\Cards\Show\Method::execute'));
+        $manager->add(new Method('Vicards.Cards.Edit', '\Liloi\Vicards\API\Cards\Edit\Method::execute'));
+        $manager->add(new Method('Vicards.Cards.Save', '\Liloi\Vicards\API\Cards\Save\Method::execute'));
+        $manager->add(new Method('Vicards.Cards.Create', '\Liloi\Vicards\API\Cards\Create\Method::execute'));
+        $manager->add(new Method('Vicards.Cards.Remove', '\Liloi\Vicards\API\Cards\Remove\Method::execute'));
+        
         self::$manager = $manager;
     }
 

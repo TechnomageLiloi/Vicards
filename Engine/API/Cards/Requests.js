@@ -76,8 +76,7 @@ API.Cards = {
             'key': key,
             'title': jq_block.find('[name="title"]').val(),
             'status': jq_block.find('[name="status"]').val(),
-            'program': jq_block.find('[name="program"]').val(),
-            'credits': jq_block.find('[name="credits"]').val()
+            'program': jq_block.find('[name="program"]').val()
         }, function (data) {
             API.Cards.getCollection();
         }, function () {

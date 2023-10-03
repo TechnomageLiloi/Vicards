@@ -18,7 +18,7 @@ class Entity extends AbstractEntity
 {
     public function getKey(): string
     {
-        return $this->getField('key_imperial');
+        return $this->getField('key_card');
     }
 
     public function save(): void

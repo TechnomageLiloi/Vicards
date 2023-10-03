@@ -70,7 +70,7 @@ class Manager extends DomainManager
         $name = self::getTableName();
         self::getAdapter()->insert($name, [
             'title' => 'Enter the title',
-            'status' => Statuses::LOCK,
+            'status' => Statuses::ACTIVE,
             'program' => '// comment',
         ]);
     }
