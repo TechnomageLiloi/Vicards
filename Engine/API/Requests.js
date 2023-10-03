@@ -1,3 +1,3 @@
-var Vicards = {
+var API = {
 
 };

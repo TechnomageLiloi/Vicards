@@ -1,6 +1,6 @@
 <?php
 
-namespace Liloi\Vicards\Domain\Imperials;
+namespace Liloi\Vicards\Domain\Cards;
 
 use Liloi\Tools\Collection as AbstractCollection;
 
